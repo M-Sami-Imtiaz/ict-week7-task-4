@@ -1,0 +1,80 @@
+
+body {
+    background-image: url("background.jpg");
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+#header {
+    background-color: #A8F0F0;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#header h1 {
+    color: #239999;
+    font-weight: normal;
+    margin: 0;
+}
+
+#header p {
+    color: #239999;
+    margin: 0;
+}
+
+#friends {
+    width: 120px;
+    float: left;
+    background-color: #40D6C8;
+    border: 4px solid #008F8F;
+    padding: 10px;
+}
+
+#friends h2 {
+    color: #239999;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#friends ul {
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+#journal {
+    margin-left: 150px;
+}
+
+.entry {
+    background-color: #E8F9F9;
+    border: 3px solid #C2E8E8;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.entry h2 {
+    color: #239999;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 2px dashed #239999;
+}
+
+.entry p {
+    color: #B27F7F;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.entry img {
+    width: 130px;
+    float: right;
+    margin: 5px;
+}
